@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BruTile" Version="4.0.0" />
+    <PackageReference Include="Mapsui" Version="3.0.0" />
+    <PackageReference Include="Mapsui.Wpf" Version="3.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="SkiaSharp" Version="2.80.3" />
+    <PackageReference Include="SkiaSharp.Views.WPF" Version="2.80.3" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="Svg.Skia" Version="0.5.8.2" />
+    <PackageReference Include="System.Collections.Concurrent" Version="4.3.0" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.115" />
+    <PackageReference Include="Topten.RichTextKit" Version="0.4.148" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BruTile.MbTiles">
+      <HintPath>References\BruTile.MbTiles.dll</HintPath>
+    </Reference>
+    <Reference Include="VectorTileRenderer">
+      <HintPath>References\VectorTileRenderer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
